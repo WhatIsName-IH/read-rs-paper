@@ -1,0 +1,4 @@
+interface:
+  display_name: "论文阅读与复习"
+  short_description: "自主精读或全文分析，支持追问与 Better Notes 源码复习卡"
+  default_prompt: "使用 $read-rs-paper 阅读我指定的论文，先确认 A/B 模式，并提供带 LaTeX 源码的复习笔记。"
