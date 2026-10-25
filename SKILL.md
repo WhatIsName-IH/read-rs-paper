@@ -1,6 +1,6 @@
 ---
 name: read-rs-paper
-description: Use when the user wants to read, discuss, or summarize a remote sensing, computer vision, or AI paper, learn its academic English, or prepare Zotero Better Notes revision notes and Method Memory Cards.
+description: Use when the user wants to read, discuss, or summarize a remote sensing, computer vision, or AI paper, learn its academic English, selectively save vocabulary to a Notion vocabulary notebook, or prepare Zotero Better Notes revision notes and Method Memory Cards.
 ---
 
 # 论文阅读与复习
@@ -18,6 +18,11 @@ description: Use when the user wants to read, discuss, or summarize a remote sen
 - 查当前论文实际定义和上下文后回答，不以通用术语解释代替本文机制。定位不明确时询问位置；可先给通用解释，但标明尚未确认本文用法。
 - 先解决支线，再提示恢复原来的阅读位置；不自动展开下一节、不重新总结全篇、不切换论文或模式。
 - 新证据纠正旧解释时更新事实记录，并在后续复习卡反映修订。仅无事实变化的扩展讨论不擅自改变作者结论。
+
+## 按需收录词汇到 Notion（A/B 共用）
+用户可选择将普通单词、短语或专业术语保存到「📖 学术英语词汇本｜单词与术语」。普通释义、英语答疑、论文总结及阅读结束不自动收录，也不每次催问是否保存。
+- “把这个词加入词汇本”“收录 X、Y”“把刚才选的词整理到 Notion”等明确请求即授权保存所选词，无需重复确认。指代或选择范围不清时只澄清所选词；“按词汇本格式整理”但未要求保存时仅在聊天中输出。
+- 收录时读取 [vocabulary-notebook.md](references/vocabulary-notebook.md)，按固定五字段整理，先检查已有词条，再写入指定页面。词汇收录独立于 A/B 模式，不重置论文身份、阅读进度或模式。
 
 ## 证据与稳定性
 维护一份经核对的论文记录，全文总结、追问和复习卡均使用它。关键事实标注章节、公式编号、图表编号或可确认的 PDF 页码；PDF 页序与印刷页码不同要区分。

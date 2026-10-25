@@ -201,7 +201,9 @@ read-rs-paper/
 └── references/
     ├── guided-reading.md        # A 模式与共同答疑规则
     ├── full-analysis.md         # B 模式全文分析
-    └── better-notes.md          # 源码、复习卡和笔记关联规则
+    ├── better-notes.md          # 源码、复习卡和笔记关联规则
+    ├── classification.md        # 阅读结束后的分类建议
+    └── vocabulary-notebook.md   # 按需收录词汇到 Notion
 ```
 
 ## 上传 GitHub
@@ -216,3 +218,11 @@ read-rs-paper/
 - [Better Notes 官方项目与使用说明](https://github.com/windingwind/zotero-better-notes)
 - [Better Notes 模板说明](https://github.com/windingwind/zotero-better-notes/blob/master/docs/about-note-template.md)
 - [Zotero 笔记说明](https://www.zotero.org/support/notes)
+
+## 按需收录词汇到 Notion
+
+A/B 两种模式均支持选择保存单词、短语或专业术语。例如：“把这个词加入词汇本”“把 synergy、avenue 整理到 Notion”。普通答疑不会自动收录；只说“按词汇本格式整理，先不保存”时仅在聊天中输出。
+
+收录到用户指定的「📖 学术英语词汇本｜单词与术语」，按固定五字段整理：发音与词性（优先英式 IPA，名词注明可数性）、核心含义、2–3 个常用搭配、易混辨析、一个通用英文例句及中文翻译。专业术语侧重准确理解，不强行用于日常英语或雅思写作。
+
+保存前读取目标页面并检查重复，保存后读取确认；不自动新建词汇本或改造数据库。需要可用的 Notion 连接和目标页面访问权限。具体规则见 `references/vocabulary-notebook.md`。复习时先看词头回忆含义和搭配，再尝试自己造句。
